@@ -1,0 +1,32 @@
+Apraksts:
+Programma ir izstrādāta, lai ērti sadalītu kopējo čeka summu restorānā starp vairākiem cilvēkiem un aprēķinātu dzeramnaudas summu atkarībā no izvēlētā procentuālā daudzuma.
+
+Ievaddati:
+Kopējā čeka summa (total_bill) ir skaitlis ar peldošo komats punktu, kas atspoguļo kopējo sadalāmā čeka summu.
+Pie galda esošo cilvēku skaits (num_people) ir vesels skaitlis, kas norāda, cik cilvēki maksās par čeku.
+Dzeramnaudas procents (tip_percentage) ir skaitlis ar peldošo komatspunktu, kas norāda procentuālo daļu, kura tiks atstāta kā dzeramnauda.
+Rezultāts:
+Summa, kas jāmaksā katrai personai (amount_per_person), ir skaitlis ar peldošo komats punktu, kas atspoguļo vienādu čeka procentuālo daļu katrai personai.
+Dzeramnaudas summa (tip_amount) ir skaitlis ar svārstīgo komats, kas izsaka dzeramnaudas summu, kura aprēķināta, pamatojoties uz čeka kopējo summu un dzeramnaudas procentuālo daļu.
+Saskarnes elementi:
+Pieteikumā būs šādi saskarnes elementi:
+
+Ievades lauks, kurā ieraksta čeka kopējo summu.
+ievades lauks, kurā norāda pie galda esošo cilvēku skaitu.
+ievades lauks, kurā ieraksta dzeramnaudas procentuālo daļu.
+Poga "Aprēķināt".
+izejas lauks summai, kas jāmaksā katrai personai.
+Dzeramnaudas summas izejas lauks.
+Pēc izvēles: poga "Notīrīt", lai atiestatītu visus laukus.
+Darbības algoritms:
+Lietotājs ievada kopējo čeka summu, pie galda esošo cilvēku skaitu un dzeramnaudas procentuālo daļu.
+Lietotājs nospiež pogu "Aprēķināt".
+Lietojumprogramma aprēķina dzeramnaudas summu (tip_amount) kā kopējais_rēķins * (tip_procents / 100).
+Lietojumprogramma aprēķina summu, kas jāmaksā katram cilvēkam (summa_par_personu), kā (kopējais_rēķins + dzeramnaudas_summa) / cilvēku skaits.
+Pieteikums izvada summu_par_personu un dzeramnaudas_summu attiecīgajos izejas laukos.
+Lietotāja darbības:
+Lietotājs var ievadīt skaitliskās vērtības kopējās čeka summas, cilvēku skaita un dzeramnaudas procentuālās daļas ievades laukos.
+Lai veiktu aprēķinus, lietotājs noklikšķina uz pogas "Aprēķināt".
+Lietotājs pēc izvēles var noklikšķināt uz pogas "Notīrīt", lai atiestatītu visus laukus.
+Lietojumprogramma nodrošina atgriezenisko saiti nepareizu ievades datu vai aprēķinu kļūdu gadījumā.
+Šajā specifikācijā ir aprakstītas lietojumprogrammas pamatfunkcionālās un saskarnes prasības. To var izmantot kā vadlīnijas, izstrādājot lietojumprogrammu čeku dalīšanai restorānā.
